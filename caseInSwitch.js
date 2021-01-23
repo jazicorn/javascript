@@ -18,6 +18,10 @@ function caseInSwitch(val) {
             
         case 4:
             answer = "delta";
+            break;
+        // allows for statement if no case is chosen
+        default:
+            answer = "stuff";
             break;     
     }
 
