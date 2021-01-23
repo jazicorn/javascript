@@ -73,3 +73,5 @@ function checkObj(checkProp) {
 console.log("testing for object:\n\t" + checkObj('name'))
 
 
+// how to keep copy of original object before editing/changing
+var collectionCopy = JSON.parse(JSON.stringify(collection));
